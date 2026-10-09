@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-800 antialiased font-sans min-h-screen selection:bg-emerald-500 selection:text-white;
+  }
+}
+
+/* Custom FoodLoop Green & Lime Styling Utilities */
+.bg-foodloop-forest {
+  background-color: #1b4332;
+}
+
+.text-foodloop-forest {
+  color: #1b4332;
+}
+
+.border-foodloop-forest {
+  border-color: #1b4332;
+}
+
+.bg-foodloop-emerald {
+  background-color: #2d6a4f;
+}
+
+.text-foodloop-emerald {
+  color: #2d6a4f;
+}
+
+.bg-foodloop-lime {
+  background-color: #84cc16;
+}
+
+.text-foodloop-lime {
+  color: #65a30d;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.gradient-hero {
+  background: linear-gradient(135deg, #081c15 0%, #1b4332 50%, #2d6a4f 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, #2d6a4f 0%, #52b788 100%);
+}
+
+.gradient-lime-subtle {
+  background: linear-gradient(135deg, rgba(132, 204, 22, 0.12) 0%, rgba(82, 183, 136, 0.15) 100%);
+}
